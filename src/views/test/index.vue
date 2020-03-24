@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="app-container m-t-100">
     <el-upload
       class="upload-demo"
@@ -7,7 +7,7 @@
     :on-exceed="handleExceed"	
     :on-remove="handleRemove"	
     :file-list="fileListUpload"	
-    :limit="limitUpload"
+    :limit="2"
       accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
       :auto-upload="false"
     >
